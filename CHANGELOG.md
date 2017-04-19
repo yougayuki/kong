@@ -11,6 +11,9 @@
   `trusted_ips` property introduced in this release in the
   [0.10 Configuration reference](https://getkong.org/docs/0.10.x/configuration/)
   , or read the [0.10 Proxy reference](https://getkong.org/docs/0.10.x/proxy/).
+- The DNS resolver now honours the `search` and `ndots` configuration options
+  from the `resolv.conf`.
+  [#2425](https://github.com/Mashape/kong/issues/2425)
 - The Kong DNS resolver now honors the `MAXNS` setting (3) when parsing the
   `resolv.conf` nameservers.
   [#2290](https://github.com/Mashape/kong/issues/2290)
