@@ -19,6 +19,9 @@
     weight Targets, instead of all nonzero weight targets. This is to provide
     a better picture of the Targets currently in use by the Kong load balancer.
     [#2310](https://github.com/Mashape/kong/pull/2310)
+- Plugins:
+  - cors: `origins` can now be configured as a regular expression to match
+    against Origin headers.
 
 ### Added
 
